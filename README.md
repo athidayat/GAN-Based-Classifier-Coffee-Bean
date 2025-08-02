@@ -13,7 +13,7 @@ Proyek ini bertujuan untuk membangun sistem klasifikasi biji kopi yang akurat me
 - Library: NumPy, Matplotlib, scikit-learn, PIL etc.
 
 ## Struktur Repositori
-
+```
 ├── data/
 │   ├── original/         # Dataset biji kopi asli
 │   └── synthetic/        # Dataset hasil sintesis GAN
@@ -28,6 +28,7 @@ Proyek ini bertujuan untuk membangun sistem klasifikasi biji kopi yang akurat me
 │   └── classifier.py       # Skrip untuk klasifikasi
 ├── README.md               # Deskripsi repositori ini
 └── requirements.txt        # Daftar library yang dibutuhkan
+```
 
 ## Cara Menjalankan Proyek
 1.  **Clone repositori**:
