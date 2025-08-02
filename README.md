@@ -17,15 +17,12 @@ Proyek ini bertujuan untuk membangun sistem klasifikasi biji kopi yang akurat me
 ├── data/
 │   ├── original/         # Dataset biji kopi asli
 │   └── synthetic/        # Dataset hasil sintesis GAN
-├── notebooks/
-│   ├── GAN_data_generation.ipynb # Notebook untuk melatih GAN
-│   └── Classifier_training.ipynb # Notebook untuk melatih classifier
+├── Code/
+│   ├── GAN_data_generation.py # Code untuk melatih GAN
+│   └── Classifier_training.py # Code untuk melatih classifier
 ├── models/
 │   ├── gan_generator.h5        # Model generator GAN yang sudah dilatih
 │   └── classifier_model.h5     # Model classifier yang sudah dilatih
-├── src/
-│   ├── gan.py              # Skrip untuk GAN
-│   └── classifier.py       # Skrip untuk klasifikasi
 ├── README.md               # Deskripsi repositori ini
 └── requirements.txt        # Daftar library yang dibutuhkan
 ```
