@@ -29,7 +29,7 @@ Proyek ini bertujuan untuk membangun sistem klasifikasi biji kopi yang akurat me
 ├── README.md               # Deskripsi repositori ini
 └── requirements.txt        # Daftar library yang dibutuhkan
 
-##Cara Menjalankan Proyek
+## Cara Menjalankan Proyek
 - Clone repositori:
 
 Bash
@@ -43,6 +43,3 @@ pip install -r requirements.txt
 - Jalankan notebook GAN_data_generation.ipynb untuk menghasilkan data sintetis.
 - Jalankan notebook Classifier_training.ipynb untuk melatih dan menguji model klasifikasi.
 
-Kontributor
-
-[Nama Anda] - Inisiator dan Pengembang Utama
