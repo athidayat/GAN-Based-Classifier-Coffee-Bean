@@ -30,16 +30,16 @@ Proyek ini bertujuan untuk membangun sistem klasifikasi biji kopi yang akurat me
 └── requirements.txt        # Daftar library yang dibutuhkan
 
 ## Cara Menjalankan Proyek
-- Clone repositori:
+1.  **Clone repositori**:
+    ```bash
+    git clone [https://github.com/nama-pengguna-anda/GAN-Based-Coffee-Bean-Classifier.git](https://github.com/nama-pengguna-anda/GAN-Based-Coffee-Bean-Classifier.git)
+    cd GAN-Based-Coffee-Bean-Classifier
+    ```
+2.  **Instal dependensi**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Jalankan notebook** `GAN_data_generation.ipynb` untuk menghasilkan data sintetis.
+4.  **Jalankan notebook** `Classifier_training.ipynb` untuk melatih dan menguji model klasifikasi.
 
-Bash
-git clone https://github.com/nama-pengguna-anda/GAN-Based-Coffee-Bean-Classifier.git
-cd GAN-Based-Coffee-Bean-Classifier
-
-- Instal dependensi:
-
-Bash
-pip install -r requirements.txt
-- Jalankan notebook GAN_data_generation.ipynb untuk menghasilkan data sintetis.
-- Jalankan notebook Classifier_training.ipynb untuk melatih dan menguji model klasifikasi.
 
